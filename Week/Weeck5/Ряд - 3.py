@@ -1,4 +1,4 @@
 n = int(input())
-c = '9' * n
-for i in range (int(c)), ((((int(c))+1)//10)-1,-2):
-    print(i, end=' ')
+min_n = 10**(n-1) - 1
+max_n = 10 ** n - 1
+print(*tuple(range(max_n, min_n, -2)))
